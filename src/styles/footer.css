@@ -1,0 +1,145 @@
+footer {
+    background-color: #000000;
+    padding: 92px 136px 100px;
+}
+
+.foot1 {
+    display: flex;
+}
+
+.flogo {
+    float: left;
+}
+
+.flogo > img {
+    margin-bottom: 20px;
+}
+
+.f1title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.columns {
+    margin-left: auto;
+    margin-right: 0px;
+    display: flex;
+}
+
+.f1column1, .f1column2 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f1column1 > h1, .f1column2 > h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.f1column1 > a, .f1column2 > a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.foot2 {
+    border-top: solid 2px #FFFFFF;
+    border-bottom: solid 2px #FFFFFF;
+    display: flex;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.f2title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.f2subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.footform {
+    margin-right: 0px;
+    margin-left: auto;
+    width: 458px;
+    height: 52px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    display: block;
+    display: flex;
+}
+
+.f2button {
+    background: #000000;
+    border-radius: 11px;
+    margin: 11px 6px 11px auto;
+    width: 63px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.foot3 {
+    display: flex;
+    padding-top: 56px;
+}
+
+.foot3 h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.social {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.social > img {
+    height: 24px;
+    margin-left: 20px
+}

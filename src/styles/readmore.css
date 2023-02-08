@@ -1,0 +1,31 @@
+.RMButton {
+    background: #FFFFFF;
+    border-radius: 14px;
+    height: 42px;
+    display: flex;
+    width: fit-content;
+    margin-top: 0px;
+}
+
+.RMCircle {
+    margin: 10px;
+    background-color: black;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+}
+
+#RMText {
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin-bottom: 13px;
+    margin-top: 9px;
+    margin-right: 10px;
+
+}

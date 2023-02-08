@@ -1,0 +1,45 @@
+.card{
+    width: 49%;
+    height: 600px;
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.card > div {
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto 30px 30px;
+}
+
+.cardContainer {
+    margin: 42px 136px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.cardSubtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}

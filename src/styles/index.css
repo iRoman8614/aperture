@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@import "./post.css";
+@import "./info.css";
+@import "./mainpost.css";
+@import "./header.css";
+@import "./readmore.css";
+@import "./about.css";
+@import "./card.css";
+@import "./footer.css";
+
+body {
+    width: auto;
+    max-width: 1440px;
+    margin: 0;
+    background-color: gray;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background: #000000;
+}
+
+.container2>div {
+    width: 50%;
+}
+
+#container {
+    padding: 113px 60px;
+}
+
+#title1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+    margin-top: 60px;
+}
+
+#title2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
+
+#title3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.space {
+    height: 484px;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+header {
+    height: 90px;
+    background-color: #181818;
+    display: flex;
+}
+
+#logo {
+    float: left;
+    width: 128px;
+    height: 31px;
+    margin-top: 30px;
+    margin-left: 152px;
+}
+
+.buttonset {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 700px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    color: #FFFFFF;
+    height: 20px;
+    padding: 9px 20px 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+header a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}

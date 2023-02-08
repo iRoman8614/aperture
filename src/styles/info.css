@@ -1,0 +1,22 @@
+.info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin: 0 40px 40px auto;
+    display: flex;
+}
+
+.info img {
+    margin-right: 3px;
+    margin-left: 3px;
+    height: 16px;
+}
+
+.info a {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 5px;
+}

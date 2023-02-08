@@ -1,0 +1,51 @@
+#logopost {
+    height: 600px;
+    padding-top: 116px;
+}
+
+.maintitle {
+    height: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+
+    margin-bottom: 1px;
+    margin-top: 350px;
+}
+
+.mainname {
+    height: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+.mainsubtitle {
+    height: 80px;
+    width: 580px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+
+    margin: 0 auto 13px;
+}
