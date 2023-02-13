@@ -34,7 +34,7 @@
 body {
     width: auto;
     max-width: 1440px;
-    margin: 0;
+    margin: auto;
     background-color: gray;
 }
 
