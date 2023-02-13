@@ -6,13 +6,13 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: { main: './src/index.js' },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: 'main.js',
         publicPath: ''
     },
     mode: 'development',
     devServer: {
-        static: path.resolve(__dirname, './dist'),
+        static: path.resolve(__dirname, './build'),
         compress: true,
         port: 8080,
         open: true
